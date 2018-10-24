@@ -34,7 +34,7 @@ const resolvers = mergeResolvers(fileLoader(path.join(__dirname, './graphql/reso
 // DATABASE CONNECTION
 mongoose.Promise = global.Promise
 mongoose
-    .connect(`YOUR_MONGODB_CONNECTION_STRING`)
+    .connect(`mongodb://localhost:27017`)
     .then(() => {
         console.log(`Connection to database successful!`)
         console.log('----------------------------------')

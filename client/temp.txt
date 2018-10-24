@@ -1,0 +1,9 @@
+build
+config
+index.html
+node_modules
+package-lock.json
+package.json
+src
+static
+temp.txt
